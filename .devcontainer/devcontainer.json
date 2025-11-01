@@ -2,7 +2,8 @@
 	"name": "Development",
 	// "image": "ghcr.io/censibal/orcapod:0.1.0",
 	"image": "ubuntu:24.04",
-	"overrideCommand": false,
+	// "overrideCommand": false,
+	"overrideCommand": true,
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 	"mounts": [
 		"source=${localWorkspaceFolderBasename}_devcontainer_docker_data,target=/var/lib/docker,type=volume"
