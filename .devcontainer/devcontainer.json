@@ -1,8 +1,8 @@
 {
 	"name": "Development",
 	// "image": "ghcr.io/censibal/orcapod:0.1.0",
-	// "image": "ubuntu:24.04",
-	"image": "ghcr.io/censibal/test_demo:0.1.0",
+	"image": "ubuntu:24.04",
+	// "image": "ghcr.io/censibal/test_demo:0.1.0",
 	// "overrideCommand": false,
 	"overrideCommand": true,
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
