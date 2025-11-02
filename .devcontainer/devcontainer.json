@@ -1,7 +1,8 @@
 {
 	"name": "Development",
 	// "image": "ghcr.io/censibal/orcapod:0.1.0",
-	"image": "ubuntu:24.04",
+	// "image": "ubuntu:24.04",
+	"image": "ghcr.io/censibal/test_demo:0.1.0",
 	// "overrideCommand": false,
 	"overrideCommand": true,
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
@@ -11,7 +12,8 @@
 	"remoteEnv": {
 		"RUST_BACKTRACE": "1"
 	},
-	"postStartCommand": "mkdir -p data_lake && docker system prune -fa && docker volume prune -f",
+	// "postStartCommand": "mkdir -p data_lake && docker system prune -fa && docker volume prune -f",
+	"postStartCommand": "mkdir -p data_lake",
 	"hostRequirements": {
 		"cpus": 2,
 		"memory": "7gb",
